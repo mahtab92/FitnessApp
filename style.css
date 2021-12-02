@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(..//bgGymOp.png );
+    background-image: url("/bgGymOp.png"), linear-gradient(to top #831e65, #771e1a, rgb(22, 142, 211)); 
+    background-size: cover;
+    
+}
+.fitness{
+    position: absolute;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(90, 204, 44);
+    animation-fill-mode:  both;
+    animation-name: spin;
+    animation-duration: 4s;
+    
+}
+.fitness:hover{
+    background-color: rgb(3, 20, 20);
+  
+}
+@keyframes spin {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.gym{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #831e65;
+    width: 700px;
+    margin-left:auto;
+   
+}
+h1{
+    font-size: 40px;
+    padding: 30px;
+    margin: 10px;
+    text-align: center; 
+}
+.btn{
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#header{
+    font-size: 40px;
+    width: 600px;
+    left: 300px;
+    top: 100px;
+}
